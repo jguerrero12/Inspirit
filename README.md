@@ -1,6 +1,6 @@
 # Lab 9 - Inspirit
 
-Inspirit is a simple Tinder demo showcasing custom views, animations, and view controller transitions, using Apple's UIViewControllerTransitionDelegate and UIViewControllerAnimatedTransitions protocols and xib files.
+Inspirit is a simple Tinder demo showcasing custom views, animations, and view controller transitions, using Apple's UIViewControllerTransitioningDelegate and UIViewControllerAnimatedTransitioning protocols and xib files.
 
 Time spent: 7 hours spent in total
 
@@ -20,7 +20,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/jguerrero12/Colloquy/blob/master/ColloquyDemo.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/jguerrero12/Inspirit/blob/master/InspiritDemo.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
