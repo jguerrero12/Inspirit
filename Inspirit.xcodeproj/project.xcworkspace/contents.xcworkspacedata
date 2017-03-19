@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Inspirit.xcodeproj">
+      location = "self:/Users/Alienware/Documents/Xcode Documents/Inspirit/Inspirit.xcodeproj">
    </FileRef>
 </Workspace>

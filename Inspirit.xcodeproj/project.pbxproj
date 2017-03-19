@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		3313B79D1E7D088C007E4516 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313B79C1E7D088C007E4516 /* AppDelegate.swift */; };
-		3313B79F1E7D088C007E4516 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313B79E1E7D088C007E4516 /* ViewController.swift */; };
+		3313B79F1E7D088C007E4516 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313B79E1E7D088C007E4516 /* CardsViewController.swift */; };
 		3313B7A21E7D088C007E4516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3313B7A01E7D088C007E4516 /* Main.storyboard */; };
 		3313B7A41E7D088C007E4516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3313B7A31E7D088C007E4516 /* Assets.xcassets */; };
 		3313B7A71E7D088C007E4516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3313B7A51E7D088C007E4516 /* LaunchScreen.storyboard */; };
+		3313B7AF1E7D0E99007E4516 /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3313B7AE1E7D0E99007E4516 /* DraggableImageView.xib */; };
+		3313B7B21E7D0EE2007E4516 /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313B7B11E7D0EE2007E4516 /* DraggableImageView.swift */; };
+		3313B7B71E7D2B24007E4516 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313B7B61E7D2B24007E4516 /* ProfileViewController.swift */; };
+		3313B7B91E7E3A19007E4516 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313B7B81E7E3A19007E4516 /* Animator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3313B7991E7D088C007E4516 /* Inspirit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inspirit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3313B79C1E7D088C007E4516 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3313B79E1E7D088C007E4516 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3313B79E1E7D088C007E4516 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
 		3313B7A11E7D088C007E4516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3313B7A31E7D088C007E4516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3313B7A61E7D088C007E4516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3313B7A81E7D088C007E4516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3313B7AE1E7D0E99007E4516 /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableImageView.xib; sourceTree = "<group>"; };
+		3313B7B11E7D0EE2007E4516 /* DraggableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableImageView.swift; sourceTree = "<group>"; };
+		3313B7B61E7D2B24007E4516 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3313B7B81E7E3A19007E4516 /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +46,7 @@
 		3313B7901E7D088C007E4516 = {
 			isa = PBXGroup;
 			children = (
-				3313B79B1E7D088C007E4516 /* Inspirit */,
+				3313B79B1E7D088C007E4516 /* Cupid */,
 				3313B79A1E7D088C007E4516 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,17 +59,38 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3313B79B1E7D088C007E4516 /* Inspirit */ = {
+		3313B79B1E7D088C007E4516 /* Cupid */ = {
 			isa = PBXGroup;
 			children = (
+				3313B7B31E7D0EE7007E4516 /* View */,
+				3313B7B01E7D0EC0007E4516 /* View Controllers */,
 				3313B79C1E7D088C007E4516 /* AppDelegate.swift */,
-				3313B79E1E7D088C007E4516 /* ViewController.swift */,
 				3313B7A01E7D088C007E4516 /* Main.storyboard */,
 				3313B7A31E7D088C007E4516 /* Assets.xcassets */,
 				3313B7A51E7D088C007E4516 /* LaunchScreen.storyboard */,
 				3313B7A81E7D088C007E4516 /* Info.plist */,
 			);
+			name = Cupid;
 			path = Inspirit;
+			sourceTree = "<group>";
+		};
+		3313B7B01E7D0EC0007E4516 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3313B79E1E7D088C007E4516 /* CardsViewController.swift */,
+				3313B7B61E7D2B24007E4516 /* ProfileViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3313B7B31E7D0EE7007E4516 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3313B7B11E7D0EE2007E4516 /* DraggableImageView.swift */,
+				3313B7AE1E7D0E99007E4516 /* DraggableImageView.xib */,
+				3313B7B81E7E3A19007E4516 /* Animator.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +155,7 @@
 			files = (
 				3313B7A71E7D088C007E4516 /* LaunchScreen.storyboard in Resources */,
 				3313B7A41E7D088C007E4516 /* Assets.xcassets in Resources */,
+				3313B7AF1E7D0E99007E4516 /* DraggableImageView.xib in Resources */,
 				3313B7A21E7D088C007E4516 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3313B79F1E7D088C007E4516 /* ViewController.swift in Sources */,
+				3313B7B91E7E3A19007E4516 /* Animator.swift in Sources */,
+				3313B79F1E7D088C007E4516 /* CardsViewController.swift in Sources */,
+				3313B7B21E7D0EE2007E4516 /* DraggableImageView.swift in Sources */,
+				3313B7B71E7D2B24007E4516 /* ProfileViewController.swift in Sources */,
 				3313B79D1E7D088C007E4516 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +295,7 @@
 				DEVELOPMENT_TEAM = 936NAP953U;
 				INFOPLIST_FILE = Inspirit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.spirit.Inspirit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spirit.cupid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -275,7 +308,7 @@
 				DEVELOPMENT_TEAM = 936NAP953U;
 				INFOPLIST_FILE = Inspirit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.spirit.Inspirit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spirit.cupid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -300,6 +333,7 @@
 				3313B7AD1E7D088C007E4516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
